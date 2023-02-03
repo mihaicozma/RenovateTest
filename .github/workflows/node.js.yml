@@ -50,6 +50,6 @@ jobs:
     - name: Build typescript-starter
       working-directory: ./typescript-starter
       run: |
-        npm install
+        pnpm install
         npm run build
         npm pack
