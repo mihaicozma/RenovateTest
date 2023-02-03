@@ -38,6 +38,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: './RenovateBot/package-lock.json'
+    - run: npm install -g pnpm
     - run: npm install
       working-directory: ./RenovateBot
     - run: npm run rbuild
