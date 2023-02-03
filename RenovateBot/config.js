@@ -7,5 +7,5 @@ module.exports = {
   repositories: ['mihaicozma/RenovateTest'],
   onboarding: false,
   printConfig: true,
-  requireConfig: false,
+  requireConfig: "optional",
 };
