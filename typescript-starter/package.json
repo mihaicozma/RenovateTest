@@ -1,6 +1,6 @@
 {
-  "name": "@canonpp/typescript-starter",
-  "version": "9.9.9",
+  "name": "typescript-starter",
+  "version": "1.2.3",
   "description": "",
   "main": "index.js",
   "scripts": {
