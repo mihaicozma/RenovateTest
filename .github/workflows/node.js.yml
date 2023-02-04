@@ -47,9 +47,9 @@ jobs:
       working-directory: ./RenovateBot
       env:
         RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
-    - name: Build typescript-starter
-      working-directory: ./typescript-starter
-      run: |
-        pnpm install
-        npm run build
-        npm pack
+    # - name: Build typescript-starter
+    #   working-directory: ./typescript-starter
+    #   run: |
+    #     pnpm install
+    #     npm run build
+    #     npm pack
